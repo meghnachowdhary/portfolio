@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0;
+    background: rgb(55, 69, 49);
+    color: rgb(247, 235, 235)
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.mainNav {
+    padding: 10px 10px 10px 40px;
+}
+
+.mainNavList {
+    list-style: none;
+    display: flex; 
+    justify-content: right;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mainNavItem {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*   About   */
+
+
+.about {
+    text-align: left;
+    padding: 200px 100px 100px 150px;
+    width: 900px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0px;
+    z-index: 1;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 150;
+    z-index: 1;
+}
+.outer {
+    position: relative;
+    width: 100%;
+}
+.outer img, .inner img {
+    width: 100%;
+}
+.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.outer:hover .inner {
+    display: block;
+}
+
+
+/* Projects */
+
+h4 {
+    padding: 20px 20px 20px 0px;
+}
+
+#projects {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding: 320px 100px 100px 150px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+
+.image1 :hover .image2 {
+    display: inline;
+}
+
+
+#more {display: none;}
+
+button {
+    padding: 5px;
+}
+
+.container {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projectImages {
+    width: 600px;
+    padding: 20px 20px 20px 0px;
+}
+
+article {
+    padding: 20px 20px 20px 0px;
+}
+
+/* Contact */
+
+.contact-section{
+    margin-left: 150px;
+    padding: 20px 20px 20px 0px;
+    padding-top: 100px;
+  }
+  .contact-section h1{
+    padding-top: 20px;
+   font-family: 'Poppins', sans-serif;
+  }
+  .contact-section h1{
+    font-size: 35px;
+    font-style: normal;
+    padding-top: 50px;
+  }
+  .contact-form{
+    max-width: 600px;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 18px 0;
+    border-radius: 6px;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    font-style: italic;
+    font-size: 16px;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: none;
+    position: relative;
+    display: block;
+    border: 0;
+    color: #fff;
+    padding: 15px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    align-content: center;
+    font-size: 15px;
+    background-color: rgb(121, 135, 114);
+  }
+  .contact-form-btn:hover{
+    background:rgb(161, 7, 7);
+    color: white;
+  }
+  main .contact-section{
+    background-image: url(images/waves.JPG);
+    height: 100%;
+  }
+
+  .greetings {
+    position: relative;
+    margin-left: 160px;
+    border-radius: 5px;
+    background-color: rgb(121, 135, 114);
+    padding: 10px;
+  }
+  
+/* Footer */
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding: 100px 100px 100px 150px;
+    width: 900px;
+}
